@@ -1,0 +1,28 @@
+footer {
+  height: 100px;
+  background: rgba(0.5, 0.5, 0.5, 0.8);
+  .footer-col-wrap {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    h4 {
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+      font-size: 11px;
+    }
+  }
+  .social_icons {
+    justify-content: flex-end;
+    svg {
+      height: 20px;
+      width: auto;
+      color: rgba(255, 255, 255, 0.8);
+      margin-left: 10px;
+      &:hover {
+        color: white;
+      }
+    }
+
+  }
+
+}
